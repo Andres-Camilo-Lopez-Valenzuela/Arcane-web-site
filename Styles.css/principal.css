@@ -1,0 +1,31 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  background-color: #1B1E23; /* fondo oscuro */
+  font-family: Arial, sans-serif; /* para que se vea mejor */
+}
+
+.encabezado{
+    position: relative;
+    background-color: rgb(255, 255, 252);
+    height: 120px;
+}
+#Logo {
+    position: absolute;
+    top: 25px;
+    left:1.2rem;
+    height: 70px;
+    width: auto;
+}
+.elementos {
+    position: absolute;
+    top: 50%;
+    right: 1.2rem;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 5rem;
+    text-decoration: none;
+}
