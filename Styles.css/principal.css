@@ -30,6 +30,56 @@ body {
     gap: 5rem;
     list-style-type: none; /* para que no se vean los puntos */
     padding-left: 0;
+    margin-right: 2.5%;
+}
+.elementos .Inicio {
+    transition: all 0.2s ease;
+}
+
+.elementos .Inicio:hover {
+    background-color: #1B1E23;
+    border-radius: 5px;
+    transform: translateY(-2px); /* lo sube un poco al hacer hover */
+}
+
+.elementos .Inicio {
+    transition: all 0.2s ease;
+}
+
+.elementos .Inicio:hover {
+    background-color: #1B1E23;
+    border-radius: 5px;
+    transform: translateY(-2px); /* lo sube un poco al hacer hover */
+}
+
+.elementos .Personajes {
+    transition: all 0.2s ease;
+}
+
+.elementos .Personajes:hover {
+    background-color: #1B1E23;
+    border-radius: 5px;
+    transform: translateY(-2px); /* lo sube un poco al hacer hover */
+}
+
+.elementos .Multimedia{
+    transition: all 0.2s ease;
+}
+
+.elementos .Multimedia:hover {
+    background-color: #1B1E23;
+    border-radius: 5px;
+    transform: translateY(-2px); /* lo sube un poco al hacer hover */
+}
+
+.elementos .Historia {
+    transition: all 0.2s ease;
+}
+
+.elementos .Historia:hover {
+    background-color: #1B1E23;
+    border-radius: 5px;
+    transform: translateY(-2px); /* lo sube un poco al hacer hover */
 }
 .link{
     font-family: Ancizar;
@@ -37,3 +87,15 @@ body {
     color: rgb(220, 173, 113);
     font-size: 1.4rem;
 }
+
+#firstImage {
+    position: fixed;
+    margin-top: 5.8%;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* O 'contain' si prefieres que toda la imagen sea visible */
+    z-index: -1;
+}
+
