@@ -4,10 +4,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
+  margin: 0;
+
   background-color: #1B1E23; /* fondo oscuro */
   font-family: Arial, sans-serif; /* para que se vea mejor */
+  background-repeat: no-repeat;
+  background-size: cover;       /* Para que cubra toda el área */
+  background-attachment: fixed; /* Hace que la imagen quede fija */
+  background-position: center;
+  /* Opcional: para que el contenido tenga buen contraste */
+  color: white;
 }
+
 
 .encabezado{
     position: relative;
@@ -99,3 +109,32 @@ body {
     z-index: -1;
 }
 
+
+.sinopsis {
+    position: relative;
+    background: linear-gradient(to bottom, rgb(22, 22, 22), transparent);
+    color: white;
+    max-width: 480px;   /* Ancho máximo del contenedor */
+    margin: 20px ;  /* Centra horizontalmente y da margen arriba y abajo */
+    padding: 20px;      /* Espacio interno para que el texto no quede pegado */
+    border-radius: 10px; /* Opcional, para bordes redondeados */
+    font-family: Ancizar;
+    height: 3.8rem;
+    
+}
+
+.sinopsis p{
+    position: relative;
+    font-size: 1.2rem;
+}
+
+.playlist {
+    position: relative;
+    left: 1.7rem;         /* pegado a la izquierda del contenedor padre */
+    
+    width: 30.0%;    /* ancho que quieres */
+    top: 22vh;
+    height: 45vh; /* altura que quieres */
+    
+ 
+}
