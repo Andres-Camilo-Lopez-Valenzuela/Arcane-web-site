@@ -79,6 +79,5 @@ Estoy disponible en [Fiverr](https://www.fiverr.com/) para:
 
 ---
 
-## 📸 Capturas (opcional)
-
-Puedes incluir una sección con screenshots si quieres mostrar cómo se ve visualmente tu sitio.
+## Link para que veas la pagina:
+https://arcanefandom.netlify.app/
